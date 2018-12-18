@@ -23,9 +23,8 @@ class App extends Component {
         </header>
         <InputMask className='search-term'
           title='Phone Number'
-          mask='(999)999-9999'
+          mask='(999) 999 9999'
           maskChar='' //https://www.npmjs.com/package/react-input-mask#maskchar--string
-          placeholder='(###)###-####'
           onChange={this.updateInputValue}
           minLength="13"
           required
