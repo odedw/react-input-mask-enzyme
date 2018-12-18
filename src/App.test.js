@@ -18,5 +18,5 @@ it('typing in field works', () => {
     .find('input')
     .simulate('change', {target: {value: '1234567890'}})
 
-  expect('1234567890').toEqual(component.find('input').prop('value')); 
+  expect('(123) 456 7890').toEqual(component.find('input').prop('value')); 
 })
